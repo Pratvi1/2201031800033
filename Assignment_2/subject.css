@@ -1,0 +1,633 @@
+.choose-what-you {
+  margin: 0;
+  width: 1348px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  mix-blend-mode: hard-light;
+  max-width: 100%;
+}
+.frame-with-choices {
+  width: 1502px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.civil-war-frame-child {
+  height: 131px;
+  width: 552px;
+  position: relative;
+  background-color: var(--color-maroon);
+  display: none;
+  max-width: 100%;
+}
+.ancient-history {
+  height: 102px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.civil-war-frame {
+  align-self: stretch;
+  background-color: var(--color-maroon);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-10xl) var(--padding-19xl) 0 var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.civil-war-frame-item {
+  height: 121px;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-maroon);
+}
+.blank-line,
+.freedom-fighter,
+.history3 {
+  margin: 0;
+}
+.freedom-fighter-history-container {
+  height: 120px;
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.civil-war-frame1,
+.freedom-fighter-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.civil-war-frame1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 78px var(--padding-xs) 63px;
+  position: relative;
+}
+.freedom-fighter-frame {
+  width: 552px;
+  flex-direction: column;
+  gap: 42px 0;
+  min-width: 552px;
+  max-width: 100%;
+}
+.conflict-and-rulers-frame-child {
+  height: 131px;
+  width: 560px;
+  position: relative;
+  background-color: var(--color-maroon);
+  display: none;
+  max-width: 100%;
+}
+.civil-war {
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  z-index: 1;
+}
+.conflict-and-rulers-frame {
+  align-self: stretch;
+  background-color: var(--color-maroon);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-27xl) 187px var(--padding-26xl) var(--padding-134xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.conflict-and-rulers-frame-item {
+  height: 114px;
+  width: 560px;
+  position: relative;
+  background-color: var(--color-maroon);
+  display: none;
+  max-width: 100%;
+}
+.kings-history {
+  position: relative;
+  font-size: var(--font-size-29xl);
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 1;
+}
+.conflict-and-rulers-frame1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-18xl) 127px var(--padding-18xl) var(--padding-74xl);
+  background-color: var(--color-maroon);
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.civil-war-frame2:hover,
+.conflict-and-rulers-frame1:hover,
+.frames-for-modern-and-politica:hover {
+  background-color: var(--color-brown-200);
+}
+.frame-for-civil-war-and-kings {
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 72px 0;
+  min-width: 560px;
+  max-width: 100%;
+}
+.frame-for-ancient-history {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.text-on-cold-war-history-frame-child {
+  height: 126px;
+  width: 552px;
+  position: relative;
+  background-color: var(--color-maroon);
+  display: none;
+  max-width: 100%;
+}
+.cold-war-history {
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  z-index: 1;
+}
+.frame-for-cold-war-history,
+.text-on-cold-war-history-frame {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.text-on-cold-war-history-frame {
+  align-self: stretch;
+  background-color: var(--color-maroon);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-24xl) 40px;
+}
+.frame-for-cold-war-history {
+  width: 552px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  min-width: 552px;
+}
+.frames-for-modern-and-politica-child {
+  height: 114px;
+  width: 560px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.frames-for-modern-and-politica,
+.indias-history {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.indias-history {
+  height: 58px;
+  position: relative;
+  font-size: var(--font-size-29xl);
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 1;
+}
+.frames-for-modern-and-politica {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-10xl) var(--padding-94xl) var(--padding-8xl)
+    var(--padding-62xl);
+  background-color: var(--color-maroon);
+  flex-direction: row;
+  box-sizing: border-box;
+  min-width: 560px;
+  max-width: 100%;
+}
+.ancient-india-frame,
+.frames-for-indias-history {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frames-for-indias-history {
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-xl);
+}
+.ancient-india-frame {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.ancient-history-frame-child {
+  height: 128px;
+  width: 552px;
+  position: relative;
+  background-color: var(--color-maroon);
+  display: none;
+  max-width: 100%;
+}
+.kashmirs-history {
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  z-index: 1;
+}
+.ancient-history-frame,
+.kings-history-frame {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ancient-history-frame {
+  align-self: stretch;
+  background-color: var(--color-maroon);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-24xl) var(--padding-12xl) var(--padding-26xl);
+}
+.kings-history-frame {
+  width: 552px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  min-width: 552px;
+}
+.civil-war-frame-inner {
+  height: 115px;
+  width: 560px;
+  position: relative;
+  background-color: var(--color-maroon);
+  display: none;
+  max-width: 100%;
+}
+.modern-history {
+  position: relative;
+  font-size: var(--font-size-29xl);
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 1;
+}
+.civil-war-frame2,
+.history-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.civil-war-frame2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-10xl) var(--padding-79xl) var(--padding-10xl)
+    var(--padding-45xl);
+  background-color: var(--color-maroon);
+  height: 115px;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 560px;
+}
+.history-frame {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.indias-history-frame-child {
+  height: 130px;
+  width: 567px;
+  position: relative;
+  background-color: var(--color-maroon);
+  display: none;
+  max-width: 100%;
+}
+.political-history {
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  z-index: 1;
+}
+.indias-history-frame,
+.technology-history-frame {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.indias-history-frame {
+  align-self: stretch;
+  background-color: var(--color-maroon);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-27xl) 48px var(--padding-25xl);
+}
+.technology-history-frame {
+  width: 567px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-xs) 0 0;
+  min-width: 567px;
+}
+.cold-war-history-child {
+  height: 130px;
+  width: 560px;
+  position: relative;
+  background-color: var(--color-maroon);
+  display: none;
+  max-width: 100%;
+}
+.technology-history {
+  height: 50px;
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.cold-war-history1,
+.political-history-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.cold-war-history1 {
+  height: 130px;
+  background-color: var(--color-maroon);
+  justify-content: center;
+  padding: var(--padding-14xl) 35px var(--padding-14xl) var(--padding-14xl);
+  box-sizing: border-box;
+  min-width: 560px;
+}
+.political-history-frame {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.text-on-indias-history-frame {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 47px 0;
+  max-width: 100%;
+}
+.learn-frame,
+.subject,
+.subject-frame,
+.text-on-indias-history-frame {
+  display: flex;
+  justify-content: flex-start;
+}
+.subject-frame {
+  width: 1433px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 59px 0;
+  max-width: 100%;
+}
+.learn-frame,
+.subject {
+  text-align: center;
+}
+.learn-frame {
+  width: 1502px;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.subject {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-salmon-100);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-67xl) 173px var(--padding-94xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: 200px 0;
+  letter-spacing: normal;
+  font-size: var(--font-size-109xl);
+  color: #101010;
+  font-family: var(--font-island-moments);
+}
+@media screen and (max-width: 1275px) {
+  .frame-for-civil-war-and-kings,
+  .freedom-fighter-frame {
+    flex: 1;
+  }
+  .frame-for-ancient-history {
+    flex-wrap: wrap;
+  }
+  .frame-for-cold-war-history,
+  .frames-for-modern-and-politica {
+    flex: 1;
+  }
+  .frames-for-indias-history {
+    flex-wrap: wrap;
+  }
+  .civil-war-frame2,
+  .kings-history-frame {
+    flex: 1;
+  }
+  .history-frame {
+    flex-wrap: wrap;
+  }
+  .cold-war-history1,
+  .technology-history-frame {
+    flex: 1;
+  }
+  .political-history-frame {
+    flex-wrap: wrap;
+  }
+  .subject {
+    gap: 200px 0;
+    padding-right: var(--padding-67xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .civil-war-frame2,
+  .cold-war-history1,
+  .frame-for-civil-war-and-kings,
+  .frame-for-cold-war-history,
+  .frames-for-modern-and-politica,
+  .freedom-fighter-frame,
+  .kings-history-frame,
+  .technology-history-frame {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .choose-what-you {
+    font-size: var(--font-size-32xl);
+    line-height: 24px;
+  }
+  .ancient-history,
+  .freedom-fighter-history-container {
+    font-size: var(--font-size-19xl);
+    line-height: 32px;
+  }
+  .civil-war-frame1 {
+    padding-left: var(--padding-12xl);
+    padding-right: 39px;
+    box-sizing: border-box;
+  }
+  .freedom-fighter-frame {
+    gap: 42px 0;
+  }
+  .civil-war {
+    font-size: var(--font-size-19xl);
+    line-height: 32px;
+  }
+  .conflict-and-rulers-frame {
+    padding-left: var(--padding-57xl);
+    padding-right: var(--padding-74xl);
+    box-sizing: border-box;
+  }
+  .kings-history {
+    font-size: var(--font-size-19xl);
+    line-height: 32px;
+  }
+  .frame-for-civil-war-and-kings {
+    gap: 72px 0;
+  }
+  .cold-war-history,
+  .indias-history,
+  .kashmirs-history,
+  .modern-history,
+  .political-history {
+    font-size: var(--font-size-19xl);
+    line-height: 32px;
+  }
+  .indias-history-frame {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .technology-history {
+    font-size: var(--font-size-19xl);
+    line-height: 32px;
+  }
+  .text-on-indias-history-frame {
+    gap: 47px 0;
+  }
+  .subject-frame {
+    gap: 59px 0;
+  }
+  .subject {
+    gap: 200px 0;
+    padding-right: var(--padding-24xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .choose-what-you {
+    font-size: var(--font-size-13xl);
+    line-height: 16px;
+  }
+  .ancient-history,
+  .civil-war,
+  .freedom-fighter-history-container {
+    font-size: var(--font-size-10xl);
+    line-height: 24px;
+  }
+  .conflict-and-rulers-frame {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .kings-history {
+    font-size: var(--font-size-10xl);
+    line-height: 24px;
+  }
+  .conflict-and-rulers-frame1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .frame-for-civil-war-and-kings {
+    gap: 72px 0;
+  }
+  .cold-war-history,
+  .indias-history {
+    font-size: var(--font-size-10xl);
+    line-height: 24px;
+  }
+  .frames-for-modern-and-politica {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .kashmirs-history,
+  .modern-history {
+    font-size: var(--font-size-10xl);
+    line-height: 24px;
+  }
+  .civil-war-frame2 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .political-history,
+  .technology-history {
+    font-size: var(--font-size-10xl);
+    line-height: 24px;
+  }
+  .subject {
+    gap: 200px 0;
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

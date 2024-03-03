@@ -1,0 +1,77 @@
+.about-us1 {
+  margin: 0;
+  height: 100px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-us-container {
+  width: 611px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-19xl);
+  box-sizing: border-box;
+}
+.blank-line1,
+.blank-line2,
+.welcome-to-virtual {
+  margin: 0;
+}
+.our-passion {
+  margin: 0;
+  color: var(--color-white);
+}
+.at-virtual-reality,
+.blank-line3,
+.blank-line4,
+.blank-line5 {
+  margin: 0;
+}
+.uncovering-the-past {
+  margin: 0;
+  color: var(--color-white);
+}
+.blank-line6,
+.journey-with-us {
+  margin: 0;
+}
+.welcome-to-virtual-container1 {
+  width: 100%;
+}
+.about,
+.welcome-to-virtual-container {
+  position: relative;
+  display: flex;
+  text-align: center;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.welcome-to-virtual-container {
+  width: 2195px;
+  height: 1176px;
+  font-size: var(--font-size-29xl);
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.about {
+  background-color: var(--color-salmon-100);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 49px 0 0;
+  box-sizing: border-box;
+  font-size: 96px;
+}

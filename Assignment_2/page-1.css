@@ -1,0 +1,172 @@
+.union-frame-child {
+  height: 201px;
+  width: 1957px;
+  position: relative;
+  background-color: var(--color-maroon);
+  display: none;
+  max-width: 100%;
+}
+.civil-war1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.union-frame {
+  align-self: stretch;
+  background-color: var(--color-maroon);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) 680px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.the-american-civil {
+  height: 539px;
+  width: 715px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.the-american-civil-war-was-a-w-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-45xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.the-war-left,
+.the-war-was {
+  margin: 0;
+}
+.the-war-was-container {
+  height: 462px;
+  width: 1916px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.rectangle-shape {
+  height: 104px;
+  width: 659px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -87px;
+  left: 544px;
+  background-color: var(--color-forestgreen-100);
+  z-index: 1;
+}
+.click-here-to1 {
+  margin: 0;
+}
+.get-more-into {
+  margin: 0;
+  font-size: var(--font-size-21xl);
+}
+.click-here-to-container {
+  position: absolute;
+  margin: 0 !important;
+  bottom: -108px;
+  left: 549px;
+  color: var(--color-white);
+  z-index: 2;
+}
+.american-c-w-frame,
+.frame-with-rectangle,
+.page-1 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  text-align: left;
+}
+.frame-with-rectangle {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  position: relative;
+  max-width: 100%;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-sans);
+}
+.american-c-w-frame,
+.page-1 {
+  flex-direction: column;
+}
+.american-c-w-frame {
+  align-items: flex-end;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-sans);
+}
+.page-1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-salmon-200);
+  overflow: hidden;
+  align-items: center;
+  padding: 0 0 108px;
+  gap: 15px 0;
+  letter-spacing: normal;
+  font-size: var(--font-size-109xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .union-frame {
+    padding-left: var(--padding-321xl);
+    padding-right: var(--padding-321xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .civil-war1,
+  .the-american-civil {
+    font-size: var(--font-size-32xl);
+  }
+  .the-american-civil-war-was-a-w-wrapper {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .the-war-was-container {
+    font-size: var(--font-size-32xl);
+  }
+  .click-here-to-container {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .union-frame {
+    padding-left: var(--padding-151xl);
+    padding-right: var(--padding-151xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .civil-war1 {
+    font-size: var(--font-size-13xl);
+  }
+  .union-frame {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .the-american-civil,
+  .the-war-was-container {
+    font-size: var(--font-size-19xl);
+  }
+  .click-here-to-container {
+    font-size: var(--font-size-5xl);
+  }
+}

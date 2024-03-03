@@ -1,0 +1,244 @@
+.political-history-text-child {
+  height: 207px;
+  width: 2044px;
+  position: relative;
+  background-color: var(--color-maroon);
+  display: none;
+  max-width: 100%;
+}
+.political-history1 {
+  margin: 0;
+  height: 153px;
+  width: 859px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.political-history-text {
+  align-self: stretch;
+  background-color: var(--color-maroon);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8xl) 547px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-5-icon {
+  height: 633px;
+  width: 1034px;
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+}
+.india-gained-independence,
+.india-held-its,
+.the-second-five-year {
+  margin-bottom: 0;
+}
+.india-gained-independence-from {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-34xl);
+}
+.india-gained-independence-container {
+  height: 576px;
+  width: 939px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.india-gained-independence-from-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 68px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.farmers-harvested-the,
+.the-bhopal-gas,
+.the-dalai-lama {
+  margin-bottom: 0;
+}
+.the-dalai-lama-escaped-to-indi {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-45xl);
+}
+.the-dalai-lama-container {
+  width: 2029px;
+  height: 232px;
+  position: relative;
+  font-size: var(--font-size-29xl);
+  display: inline-block;
+}
+.independent-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 75px 0;
+  max-width: 100%;
+}
+.independent-text-wrapper,
+.india-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.independent-text-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-sm) 0 0;
+  box-sizing: border-box;
+  margin-left: -1034px;
+}
+.india-frame {
+  align-self: stretch;
+  flex-direction: row;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-inria-sans);
+}
+.frame-child {
+  height: 121px;
+  width: 680px;
+  position: relative;
+  display: none;
+  min-height: 121px;
+  max-width: 100%;
+}
+.click-here-to4 {
+  margin: 0;
+}
+.get-more-into3 {
+  margin: 0;
+  font-size: var(--font-size-21xl);
+}
+.click-here-to-container2 {
+  height: 120px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.vector-parent {
+  background-color: var(--color-forestgreen-100);
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-11xl) var(--padding-10xs) 0;
+  max-width: 100%;
+}
+.click-to-learn-text,
+.india-frame-parent,
+.page-4,
+.vector-parent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.click-to-learn-text {
+  width: 951px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.india-frame-parent,
+.page-4 {
+  flex-direction: column;
+  text-align: left;
+  color: var(--color-white);
+  font-family: var(--font-inria-sans);
+}
+.india-frame-parent {
+  align-self: stretch;
+  align-items: center;
+  padding: 0 var(--padding-mini) 0 0;
+  gap: 33px 0;
+  max-width: 100%;
+  font-size: var(--font-size-45xl);
+}
+.page-4 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-salmon-100);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 0 0 65px;
+  letter-spacing: normal;
+  font-size: var(--font-size-109xl);
+}
+@media screen and (max-width: 1200px) {
+  .political-history-text {
+    padding-left: var(--padding-254xl);
+    padding-right: var(--padding-254xl);
+    box-sizing: border-box;
+  }
+  .india-gained-independence-from-wrapper {
+    padding-left: var(--padding-15xl);
+    padding-right: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .political-history1 {
+    font-size: var(--font-size-32xl);
+  }
+  .india-gained-independence-container {
+    font-size: var(--font-size-13xl);
+  }
+  .the-dalai-lama-container {
+    font-size: var(--font-size-19xl);
+  }
+  .independent-text {
+    gap: 75px 0;
+  }
+  .click-here-to-container2 {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .political-history-text {
+    padding-left: var(--padding-117xl);
+    padding-right: var(--padding-117xl);
+    box-sizing: border-box;
+  }
+  .independent-text {
+    gap: 75px 0;
+  }
+  .india-frame-parent {
+    gap: 33px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .political-history1 {
+    font-size: var(--font-size-13xl);
+  }
+  .political-history-text {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .india-gained-independence-container {
+    font-size: var(--font-size-5xl);
+  }
+  .the-dalai-lama-container {
+    font-size: var(--font-size-10xl);
+  }
+  .click-here-to-container2 {
+    font-size: var(--font-size-5xl);
+  }
+}

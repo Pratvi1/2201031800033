@@ -1,0 +1,259 @@
+.f-r-a-m-e-b-child {
+  height: 202px;
+  width: 1902px;
+  position: relative;
+  background-color: var(--color-maroon);
+  display: none;
+  max-width: 100%;
+}
+.kashmirs-history1 {
+  margin: 0;
+  height: 153px;
+  width: 940px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.f-r-a-m-e-a,
+.f-r-a-m-e-b {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.f-r-a-m-e-b {
+  flex: 1;
+  background-color: var(--color-maroon);
+  align-items: center;
+  padding: var(--padding-5xl) 452px var(--padding-6xl);
+}
+.f-r-a-m-e-a {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-8xs);
+  text-align: left;
+  font-size: var(--font-size-109xl);
+  color: var(--color-white);
+  font-family: var(--font-inria-sans);
+}
+.durrani-empire-in-1752,
+.hindu-dynasties-from-the,
+.mughal-rule-in-1586,
+.muslim-rule-in-1346 {
+  margin-bottom: 0;
+}
+.hindu-dynasties-from-the-begi {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-34xl);
+}
+.hindu-dynasties-from-the-container {
+  height: 624px;
+  width: 869px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.f-r-a-m-e-e {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 54px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.creation-of-the,
+.sikh-rule-in-1819 {
+  margin-bottom: 0;
+}
+.sikh-rule-in-1819-kashmir-wa {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-34xl);
+}
+.sikh-rule-in-1819-container {
+  width: 1902px;
+  height: 192px;
+  position: relative;
+  display: inline-block;
+}
+.second-indo-pakistan-war-in,
+.war-in-1947-8-war {
+  margin-bottom: 0;
+}
+.war-in-1947-8-war-broke-out {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-34xl);
+}
+.war-in-1947-8-war-container {
+  align-self: stretch;
+  height: 95px;
+  position: relative;
+  color: var(--color-gray-200);
+  display: inline-block;
+}
+.f-r-a-m-e-d1,
+.f-r-a-m-e-g1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.f-r-a-m-e-g1 {
+  align-items: flex-start;
+  gap: 4px 0;
+}
+.f-r-a-m-e-d1 {
+  align-items: flex-end;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-sans);
+}
+.f-r-a-m-e-i-child {
+  align-self: stretch;
+  height: 123px;
+  position: relative;
+  background-color: var(--color-forestgreen-100);
+  display: none;
+  z-index: 1;
+}
+.click-here-to2 {
+  margin: 0;
+  height: 77px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.get-more-into1 {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.t-e-x-t-k {
+  width: 333px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 17px;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-top: -2px;
+  font-size: var(--font-size-21xl);
+}
+.f-r-a-m-e-i,
+.page-2,
+.t-e-x-t-h,
+.t-e-x-t-k {
+  display: flex;
+  justify-content: flex-start;
+}
+.f-r-a-m-e-i {
+  width: 669px;
+  background-color: var(--color-forestgreen-100);
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.page-2,
+.t-e-x-t-h {
+  box-sizing: border-box;
+}
+.t-e-x-t-h {
+  width: 838px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.page-2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-salmon-100);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 var(--padding-sm);
+  gap: 33px 0;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+  font-family: var(--font-inria-sans);
+}
+@media screen and (max-width: 1200px) {
+  .f-r-a-m-e-b {
+    padding-left: var(--padding-207xl);
+    padding-right: var(--padding-207xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .kashmirs-history1 {
+    font-size: var(--font-size-32xl);
+  }
+  .hindu-dynasties-from-the-container {
+    font-size: var(--font-size-13xl);
+  }
+  .f-r-a-m-e-e {
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .sikh-rule-in-1819-container,
+  .war-in-1947-8-war-container {
+    font-size: var(--font-size-13xl);
+  }
+  .click-here-to2 {
+    font-size: var(--font-size-32xl);
+  }
+  .get-more-into1 {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .f-r-a-m-e-b {
+    padding-left: var(--padding-94xl);
+    padding-right: var(--padding-94xl);
+    box-sizing: border-box;
+  }
+  .page-2 {
+    gap: 33px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .kashmirs-history1 {
+    font-size: var(--font-size-13xl);
+  }
+  .f-r-a-m-e-b {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .hindu-dynasties-from-the-container,
+  .sikh-rule-in-1819-container,
+  .war-in-1947-8-war-container {
+    font-size: var(--font-size-5xl);
+  }
+  .click-here-to2 {
+    font-size: var(--font-size-19xl);
+  }
+  .get-more-into1 {
+    font-size: var(--font-size-5xl);
+  }
+}

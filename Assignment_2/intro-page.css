@@ -1,0 +1,215 @@
+.sign-in1,
+.sign-up {
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  white-space: nowrap;
+}
+.sign-up-button {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+}
+.about-us {
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  white-space: nowrap;
+}
+.intro-page-inner,
+.sign-in-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sign-in-parent {
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  gap: 0 39px;
+}
+.intro-page-inner {
+  height: 155px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mini) var(--padding-90xl);
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-maroon);
+  font-family: var(--font-istok-web);
+}
+.vr3 {
+  margin: 0;
+}
+.history2 {
+  margin: 0;
+  font-size: var(--font-size-29xl);
+}
+.vr-history-txt-container {
+  line-break: anywhere;
+  width: 100%;
+}
+.this-vr-page,
+.vr-history {
+  letter-spacing: 0.08em;
+  line-height: 40px;
+}
+.vr-history {
+  width: 421px;
+  height: 291px;
+  position: absolute;
+  margin: 0 !important;
+  top: 34px;
+  left: -70px;
+  display: flex;
+  align-items: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.this-vr-page {
+  position: relative;
+  z-index: 1;
+}
+.click-to-start-child {
+  height: 112px;
+  width: 547px;
+  position: relative;
+  background-color: var(--color-maroon);
+  display: none;
+  max-width: 100%;
+}
+.click-here-to {
+  position: relative;
+  font-size: var(--font-size-29xl);
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  font-family: var(--font-istok-web);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 1;
+}
+.click-to-start,
+.click-to-start-wrapper {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.click-to-start {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-17xl) var(--padding-28xl) var(--padding-17xl)
+    var(--padding-27xl);
+  background-color: var(--color-maroon);
+  align-items: center;
+  justify-content: center;
+}
+.click-to-start:hover {
+  background-color: var(--color-brown-200);
+}
+.click-to-start-wrapper {
+  width: 730px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+}
+.this-vr-page-helps-you-learn-h-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 103px 0;
+  max-width: 100%;
+}
+.intro-page-child {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-maroon);
+  font-family: var(--font-istok-web);
+}
+.image-1-icon,
+.intro-page {
+  position: relative;
+  overflow: hidden;
+}
+.image-1-icon {
+  margin-top: -329px;
+  margin-bottom: -329px;
+  align-self: stretch;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.intro-page {
+  width: 100%;
+  height: 1284px;
+  background-color: #f6eae8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) 0 0;
+  box-sizing: border-box;
+  gap: 102px 0;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-181xl);
+  color: var(--color-black);
+  font-family: var(--font-italianno);
+}
+@media screen and (max-width: 1325px) {
+  .intro-page-child {
+    max-width: calc(100% - 7px);
+  }
+}
+@media screen and (max-width: 1125px) {
+  .intro-page {
+    gap: 102px 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .sign-in-parent {
+    display: none;
+    gap: 0 39px;
+  }
+  .click-here-to,
+  .this-vr-page,
+  .vr-history {
+    font-size: var(--font-size-19xl);
+    line-height: 32px;
+  }
+  .click-to-start {
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+  .this-vr-page-helps-you-learn-h-parent {
+    gap: 103px 0;
+  }
+  .intro-page {
+    gap: 102px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .click-here-to,
+  .this-vr-page,
+  .vr-history {
+    font-size: var(--font-size-10xl);
+    line-height: 24px;
+  }
+  .this-vr-page-helps-you-learn-h-parent {
+    gap: 103px 0;
+  }
+}

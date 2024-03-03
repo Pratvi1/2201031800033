@@ -1,0 +1,188 @@
+.cold-war-info-text-child {
+  height: 199px;
+  width: 1875px;
+  position: relative;
+  background-color: var(--color-maroon);
+  display: none;
+  max-width: 100%;
+}
+.cold-war-history2 {
+  margin: 0;
+  height: 153px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.cold-war-info-text {
+  align-self: stretch;
+  background-color: var(--color-maroon);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xl) var(--padding-xl) var(--padding-4xl)
+    var(--padding-24xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-109xl);
+  color: var(--color-white);
+  font-family: var(--font-inria-sans);
+}
+.the-cold-war {
+  margin: 0;
+}
+.instead-they-supported {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.the-cold-war-container {
+  height: 696px;
+  width: 765px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.frame-title-text {
+  width: 865px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.the-cold-war1 {
+  margin: 0;
+}
+.the-cold-war-container1 {
+  height: 232px;
+  width: 1753px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.container-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-25xl) var(--padding-lgi);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-sans);
+}
+.interactive-link {
+  height: 111px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-forestgreen-100);
+  max-width: 103%;
+  flex-shrink: 0;
+}
+.click-here-to3 {
+  margin: 0;
+}
+.get-more-into2 {
+  margin: 0;
+  font-size: var(--font-size-21xl);
+}
+.click-here-to-container1 {
+  height: 120px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  margin-left: -670px;
+}
+.rectangle-shape1 {
+  width: 670px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.page-3,
+.parent-frame {
+  display: flex;
+  box-sizing: border-box;
+  text-align: left;
+  font-family: var(--font-inria-sans);
+}
+.parent-frame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-134xl) 0 var(--padding-xl);
+  max-width: 100%;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+}
+.page-3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-salmon-100);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xl);
+  letter-spacing: normal;
+  font-size: var(--font-size-29xl);
+  color: var(--color-gray-200);
+}
+@media screen and (max-width: 950px) {
+  .cold-war-info-text {
+    padding-left: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .cold-war-history2 {
+    font-size: var(--font-size-32xl);
+  }
+  .the-cold-war-container,
+  .the-cold-war-container1 {
+    font-size: var(--font-size-19xl);
+  }
+  .click-here-to-container1 {
+    font-size: var(--font-size-13xl);
+  }
+  .parent-frame {
+    padding-right: var(--padding-57xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cold-war-history2 {
+    font-size: var(--font-size-13xl);
+  }
+  .the-cold-war-container,
+  .the-cold-war-container1 {
+    font-size: var(--font-size-10xl);
+  }
+  .click-here-to-container1 {
+    font-size: var(--font-size-5xl);
+  }
+  .parent-frame {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
